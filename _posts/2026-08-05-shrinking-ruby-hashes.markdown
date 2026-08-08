@@ -742,7 +742,7 @@ But regardless, I also think this post was a good occasion to showcase how expen
 As Ruby developers, we tend to overuse them a bit.
 There are these convenient sort-of schema-less structs at your fingertips with a dedicated syntax.
 But when the structure of the data is known, it's generally preferable to bother defining a Struct or a class with
-instance variables as they are way more compact, and way more efficient to acess.
+instance variables as they are way more compact, and way more efficient to access.
 
 Similarly, the "array of hashes" pattern is really best avoided in performance-sensitive areas,
 instead you can often use flat arrays with a mapping of indexes, like in [this Active Record patch](https://github.com/rails/rails/pull/51744) I'm quite proud of.
